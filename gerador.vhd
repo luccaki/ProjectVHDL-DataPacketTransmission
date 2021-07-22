@@ -12,12 +12,6 @@ end entity gerador;
 
 architecture arqger of gerador is
 begin
-	--state_register: process (clk)
-	--begin
-	--	if (clk'event and clk = '1') then
-	--		seq <= inputger;
-	--	end if;
-	--end process;
 	process
 	begin
 		for i in 0 to 8 loop
