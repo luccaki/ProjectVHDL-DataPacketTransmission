@@ -115,7 +115,7 @@ begin
 						count_aux := 4;
 						count_c_aux := 0;
 						has_c := '1';					-- Pode começar decodificar os proximos bits
-						c <= "00110";					-- Define cabeçalho para decodificar
+						c <= "11011";					-- Define cabeçalho para decodificar
 						BState := B2;					
 					else
 						BState := B1;
@@ -147,13 +147,12 @@ begin
 					count := 0;
 					count_aux := 4;
 					count_c_aux := 0;
-					has_c := '0';
 				end if;
 			end if;
 				
 	end process;
 
-	seqdec_process: process (seqdecaux) begin
-		seqdec <= seqdecaux;
-	end process;
+	--seqdec_process: process (seqdecaux) begin
+	--	seqdec <= seqdecaux;
+	--end process;
 end arqdet;

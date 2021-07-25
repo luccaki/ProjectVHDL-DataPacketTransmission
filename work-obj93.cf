@@ -1,10 +1,10 @@
 v 3
-file . ".\testbench.vhd" "20210725001904.000" "20210724213159.148":
-  entity testbench at 2( 42) + 0 on 203;
-  architecture tb_arch of testbench at 9( 166) + 0 on 204;
-file . ".\detector.vhd" "20210725003150.000" "20210724213154.926":
-  entity detector at 3( 31) + 0 on 201;
-  architecture arqdet of detector at 15( 491) + 0 on 202;
-file . ".\gerador.vhd" "20210724220552.000" "20210724211930.435":
-  entity gerador at 2( 40) + 0 on 191;
-  architecture arqger of gerador at 12( 210) + 0 on 192;
+file . ".\gerador.vhd" "20210725232106.000" "20210725202111.540":
+  entity gerador at 2( 40) + 0 on 229;
+  architecture arqger of gerador at 12( 210) + 0 on 230;
+file . ".\detector.vhd" "20210725231816.000" "20210725202112.971":
+  entity detector at 3( 31) + 0 on 231;
+  architecture arqdet of detector at 15( 466) + 0 on 232;
+file . ".\testbench.vhd" "20210725001904.000" "20210725202114.209":
+  entity testbench at 2( 42) + 0 on 233;
+  architecture tb_arch of testbench at 9( 166) + 0 on 234;

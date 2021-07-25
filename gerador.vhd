@@ -14,13 +14,13 @@ architecture arqger of gerador is
 begin
 	main: process
 	begin
-		package1 <= "101011100";
-		package2 <= "101001110";
-		package3 <= "001011100";
+		--package1 <= "101011100";
+		--package2 <= "101001110";
+		--package3 <= "001011100";
 		
-		--package1 <= "001001110";
-		--package2 <= "001101100";
-		--package3 <= "000000000";
+		package1 <= "001001110";
+		package2 <= "001101100";
+		package3 <= "000000000";
 		
 		for i in 0 to 8 loop
 			if i=0 then
