@@ -12,7 +12,7 @@ end entity gerador;
 architecture arqger of gerador is
 	signal package1, package2, package3 : std_logic_vector(0 to 8);
 begin
-	process
+	main: process
 	begin
 		package1 <= "101011100";
 		package2 <= "101001110";
@@ -20,7 +20,7 @@ begin
 		
 		--package1 <= "001001110";
 		--package2 <= "001101100";
-		--package2 <= "000000000";
+		--package3 <= "000000000";
 		
 		for i in 0 to 8 loop
 			if i=0 then
